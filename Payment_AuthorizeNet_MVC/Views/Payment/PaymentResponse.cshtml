@@ -1,0 +1,73 @@
+﻿@model Payment_AuthorizeNet_MVC.Models.PaymentResponseVM
+
+@{
+    ViewBag.Title = "PaymentResponse";
+}
+
+<h2>Payment Response</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+
+    <dt>
+        @Html.DisplayNameFor(model => model.AuthorizationCode)
+    </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorizationCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransactionID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransactionID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResponseCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResponseCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessagesCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessagesCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageDescription)
+        </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ErrorCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ErrorCode)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ErrorMessage)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ErrorMessage)
+            </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to Payment Form", "Payment")
+</p>

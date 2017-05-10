@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/Payment_AuthorizeNet_MVC/bin
+/Payment_AuthorizeNet_MVC/obj/Debug
